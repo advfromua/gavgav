@@ -1,0 +1,161 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "2beb0c23-849e-4bc0-b3dd-ee1740c405e1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "c6cffb64-7395-43a0-b111-ad7445103fa3",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "27f6527c-a321-471a-b9b6-f292c01a6364",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_OWNER",
+            "oid": "9171ab0c-5bf2-4704-9ea6-94ca9aa79b63",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "1d42acc6-5289-4ac9-8ed5-83b7670ba9c4",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "7fe80c4b-f7d7-48ee-9456-26fcd1c9d173",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_DDL",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_DDL",
+            "oid": "0cf32251-ffa9-4619-a5ba-33de8f52de63",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_DDL_BY",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LAST_DDL_BY",
+            "oid": "3e485d2b-550b-457e-b930-631c25ee158b",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "e694215e-2bc5-4fa5-9a08-a57927f885ce",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LOCATION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LOCATION",
+            "oid": "63cdf0e8-85a8-4b7e-981a-94d6b71ba3c1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FILE_FORMAT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FILE_FORMAT_NAME",
+            "oid": "46a907ad-3428-43eb-9a25-35031a541bb2",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FILE_FORMAT_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FILE_FORMAT_TYPE",
+            "oid": "9090c340-ac7d-4be3-911d-9276f3cff331",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "EXTERNAL_TABLES",
+    "isMaterialized": false,
+    "name": "EXTERNAL_TABLES",
+    "oid": "e9aa6492-945a-4bdf-af4d-7268035cc387",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

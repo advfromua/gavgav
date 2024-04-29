@@ -1,0 +1,29 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CATALOG_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CATALOG_NAME",
+            "oid": "2ee2b909-80fd-4765-a48a-4aacabde1a3b",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "INFORMATION_SCHEMA_CATALOG_NAME",
+    "isMaterialized": false,
+    "name": "INFORMATION_SCHEMA_CATALOG_NAME",
+    "oid": "6d7350e6-fd95-4986-b5a9-b7b6b279131f",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

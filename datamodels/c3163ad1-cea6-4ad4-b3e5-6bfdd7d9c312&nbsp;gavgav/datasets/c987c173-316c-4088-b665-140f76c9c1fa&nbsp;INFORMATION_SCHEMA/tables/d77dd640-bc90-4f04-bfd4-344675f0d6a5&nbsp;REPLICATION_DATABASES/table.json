@@ -1,0 +1,137 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "REGION_GROUP",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "REGION_GROUP",
+            "oid": "4eddf329-4ccb-4537-b90c-00f1faf71d6f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SNOWFLAKE_REGION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SNOWFLAKE_REGION",
+            "oid": "9479a188-ac77-4879-b774-9b49a28257be",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ACCOUNT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ACCOUNT_NAME",
+            "oid": "12af2e4b-8d17-499c-98dc-fb03338cdda7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DATABASE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DATABASE_NAME",
+            "oid": "1290e0a1-af11-4138-b30f-97973169a154",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "8df5f239-68d0-43b8-85c4-2f1636670105",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "9ac3406b-c2aa-451b-975f-cc7876549ece",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "IS_PRIMARY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_PRIMARY",
+            "oid": "51a9f2c3-0d99-4608-be7d-8ec2bcfd88ae",
+            "precision": 0,
+            "scale": 0,
+            "size": 5,
+            "type": 2
+        },
+        {
+            "hidden": false,
+            "id": "PRIMARY",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PRIMARY",
+            "oid": "989679cb-5006-4b36-b35b-766297030a58",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "REPLICATION_ALLOWED_TO_ACCOUNTS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "REPLICATION_ALLOWED_TO_ACCOUNTS",
+            "oid": "e3f9076a-55bc-416a-bcef-6927d4dd6f09",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "FAILOVER_ALLOWED_TO_ACCOUNTS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FAILOVER_ALLOWED_TO_ACCOUNTS",
+            "oid": "b292c191-e5c5-4cf5-abb2-56064479377e",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "REPLICATION_DATABASES",
+    "isMaterialized": false,
+    "name": "REPLICATION_DATABASES",
+    "oid": "d77dd640-bc90-4f04-bfd4-344675f0d6a5",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

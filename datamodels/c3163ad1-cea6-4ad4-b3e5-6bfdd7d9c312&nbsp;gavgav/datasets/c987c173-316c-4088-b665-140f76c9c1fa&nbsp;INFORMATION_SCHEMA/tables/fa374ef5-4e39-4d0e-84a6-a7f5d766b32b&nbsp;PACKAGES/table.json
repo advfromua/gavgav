@@ -1,0 +1,65 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "PACKAGE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PACKAGE_NAME",
+            "oid": "7ff38206-f4e6-4385-916d-723f8304a4fd",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "VERSION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VERSION",
+            "oid": "7295cb0c-ef39-4c49-b5a0-c6d917537d69",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LANGUAGE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LANGUAGE",
+            "oid": "e4984fa3-bf53-4f73-b3fc-659a04dd9343",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "RUNTIME_VERSION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "RUNTIME_VERSION",
+            "oid": "32b9f8a4-72b5-4241-bfca-fb6557377cfa",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "PACKAGES",
+    "isMaterialized": false,
+    "name": "PACKAGES",
+    "oid": "fa374ef5-4e39-4d0e-84a6-a7f5d766b32b",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

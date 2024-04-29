@@ -1,0 +1,137 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CATALOG",
+            "oid": "700ec08d-0b3b-426b-8141-46966993d42d",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SCHEMA",
+            "oid": "c0b06500-4c6a-4ffe-93a4-93aac53a5edb",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "808969a5-393d-4939-9639-1084bcca0de5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER",
+            "oid": "efeb2b8c-a59f-4d36-b48e-e24f010f50c0",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ROW_COUNT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ROW_COUNT",
+            "oid": "8727e338-afbd-45e1-85eb-1e56eb8761bb",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "BYTES",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "BYTES",
+            "oid": "2adf0eee-4347-4924-bf07-e4ba3214262d",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "RETENTION_TIME",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RETENTION_TIME",
+            "oid": "7b2dc611-9c97-450b-b044-5382acdb490f",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "6f4dd9aa-5d13-4134-b511-e296b98f4174",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "6541948a-1467-41f3-a00f-08a705dba15f",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "525c4fab-ceb2-4241-892d-eb710ca51d04",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "HYBRID_TABLES",
+    "isMaterialized": false,
+    "name": "HYBRID_TABLES",
+    "oid": "5f5d747c-eec7-444b-8995-f02f40b5e951",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,161 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "STREAMLIT_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_CATALOG",
+            "oid": "a1c5d092-dde0-477d-9b7e-f4677d2823a4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_SCHEMA",
+            "oid": "e50745c1-97db-402c-b25e-5107a0f72846",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_NAME",
+            "oid": "63c19ced-a8a9-40ed-8de6-69dfb51114e0",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_OWNER",
+            "oid": "c37a09a3-7f96-4ec5-8a81-8531d080fd8c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_ROOT_LOCATION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_ROOT_LOCATION",
+            "oid": "48ae083d-9b75-4818-b86d-2703cf7ebc3e",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_MAIN_FILE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_MAIN_FILE",
+            "oid": "cff8e3ef-32fb-4784-91e3-c199d8dc98fc",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_QUERY_WAREHOUSE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_QUERY_WAREHOUSE",
+            "oid": "d48df115-7377-444b-9fbf-ba69e5d74b38",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_URL_ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_URL_ID",
+            "oid": "ea3544f8-044e-4126-afcf-caf3b50e3f48",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "b0b231a8-e6ec-4f75-8927-5d06caf41b79",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "e3289770-3aa8-42a0-a2f0-6930fc0dbb9e",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "0d063af2-437f-4a43-99c1-42b4d32aebec",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STREAMLIT_TITLE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STREAMLIT_TITLE",
+            "oid": "75daa10f-2f78-4219-a396-77daae7814f5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "dataset": "c987c173-316c-4088-b665-140f76c9c1fa",
+    "hidden": false,
+    "id": "STREAMLITS",
+    "isMaterialized": false,
+    "name": "STREAMLITS",
+    "oid": "0dd1caa6-6ff1-47f1-8a46-586cc5b3dc8a",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}
